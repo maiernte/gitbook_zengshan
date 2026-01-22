@@ -1,0 +1,31 @@
+{
+    "title": "《增删卜易》",
+    "author": "鎏金天涯 <admin@yfmai.eu.org>",
+    "description": "增删卜易原版",
+    "generator": "site",
+    "plugins": [ 
+        "-lunr", "-search", "search-pro",
+        "page-toc", 
+        "expandable-chapters",
+        "huahe", 
+        "pageview-count", 
+        "popup"
+    ],
+    "pluginsConfig": {
+        "huahe": { 
+            "字体大小": 3, 
+            "水土共长生": true, 
+            "华鹤八字正偏财": true,  
+            "开启短名": false, 
+            "Katex": true 
+        }
+    },
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "links": {
+        "sidebar": {
+            "易福满AI": "https://yfmai.eu.org"
+        }
+    }
+}
